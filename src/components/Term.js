@@ -35,11 +35,10 @@ export default function Term() {
                     }
                 },
                 myImage: {
-                    description: 'Get wonderfull girl image',
-                    usage: 'cat',
+                    description: 'Get wonderfull  image',
                     fn: async () => {
                         terminal.current.pushToStdout("getting a my image for you..\n---\n")
-                        terminal.current.pushToStdout(<img src={myImage} width="500px" height="380px" alt='cat'></img>)
+                        terminal.current.pushToStdout(<img src={myImage} width="30%" height="auto" alt='cat'></img>)
                     }
                 },
                 cd: {

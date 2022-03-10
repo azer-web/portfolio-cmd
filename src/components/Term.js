@@ -23,7 +23,7 @@ export default function Term() {
                 "---",
                 "Type 'help' to see a list of commands.",
                 "---",
-                "try starting with 'cat' (〜￣▽￣)〜",
+                "try starting with 'help' (〜￣▽￣)〜",
                 "---",
             ]}
             commands={{
